@@ -139,7 +139,7 @@ a {
    justify-content: space-between;
    align-items: center;
    width: 100%;
-   height: 100px;
+   height: 50px;
    position: fixed;
    top: 0;
    left: 0;
@@ -148,8 +148,8 @@ a {
  }
 
  figure {
-   width: 400px;
-   height: 50px;
+   width: 300px;
+   height: 25px;
  }
 
  #header-img {
@@ -160,7 +160,7 @@ a {
  nav a {
    padding: 10px;
    margin: 0 1em;
-   font-size: 1.5em;
+   font-size: 1em;
    color: #222;
 
 
@@ -194,11 +194,157 @@ h1 {
   
 }
     
-      
+.hero-form {
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+#email {
+  width: 15em;
+  margin-bottom: 1.5em;
+}
 
-    
+#submit {
+  width: 10em;
+  padding: 0.5em;
+  text-transform: uppercase;
+  font-weight: bold;
+  background-color: #cec900;
+  border-style: none;
+  
+}
 
+/* ===============     Features styles    ======================================*/
 
+#features {
+  margin: 1.5em 0;
+}
+#features >h2 {
+  text-align: center;
+}
+ 
+.features-detail {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  width: 70vw;
+  margin: 0 auto;
+  
+ 
+}
+
+.icon {
+  color: #e2ce4a;
+  display: flex;
+  align-items: center;
+  width: 10vw;
+}
+  
+.features-desc {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  width: 60vw;
+  margin: 0.5em 0;
+  
+}
+
+.features-desc h3,
+p {
+  margin: 0;
+}
+
+/* ===============     How it works styles    ======================================*/
+
+#how-it-works {
+  text-align: center;
+  margin: 2.5em 0;
+}
+
+#how-it-works > iframe {
+  max-width: 560px;
+  width: 100%;
+}
+
+/* ===============     Pricing styles    ======================================*/
+
+#pricings {
+  margin: 2.5em 0;
+} 
+
+.pricing-desc {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: wrap;
+  width: 100%;
+}
+
+.pricing-title {
+  width: 100%;
+  text-align: center;
+}
+
+.pricing-detail {
+  width: 25%;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  border: 1px solid black;
+  margin: 1em;
+  
+}
+
+.pricing-detail > h3 {
+  background-color: #e2ce4a;
+  margin: 0;
+  padding: 0.5em;
+}
+
+ul {
+  margin: 0 0 1em 0;
+  padding-left: 0;
+ 
+}
+
+li {
+  list-style: none;
+  text-align: center;
+ 
+}
+
+button {
+  background-color: #e2ce4a;
+  padding: 0.5em;
+  margin: 1em;
+  width: 100px;
+  text-align: center;
+  border-style: none;
+}
+
+/* ===============     Footer styles    ======================================*/
+
+footer {
+  background-color: #e2ce4a;
+  margin: 0;
+  padding: 0.5em;
+  text-align: right;
+  width: 100vw;
+  height: 50px;
+}
+
+.footer-link {
+  margin-right: 1em;
+  
+}
+
+footer> p {
+  margin-right: 1.5em;
+  padding-bottom: 1em;
+}
 
 /* ==========================================================================
    Helper classes
